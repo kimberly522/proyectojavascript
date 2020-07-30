@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    padding: 10px 16px;
+    margin: 0px;
+
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.container-2{
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Mobile columns -- */
+.col-1 {
+    width: 8.3%;
+}
+.col-11 {
+    width: calc( 8.3% * 11 );
+}
+.col-12 {
+    width: calc( 8.3% * 12 );
+    border: none;
+}
